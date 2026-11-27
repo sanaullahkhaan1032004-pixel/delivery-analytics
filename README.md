@@ -33,6 +33,14 @@ data/deliveries.csv       # generated dataset
 notebooks/01_load_data.ipynb  # loads the CSV and previews it
 ```
 
+## Task 2: EDA and SQL
+
+`notebooks/02_eda_sql.ipynb` contains:
+- EDA: volume per zone, delay distribution, daily order count
+- The data loaded into SQLite (`data/deliveries.db`)
+- Three SQL queries: average delay per driver, peak delivery hour, zones with the highest delay frequency
+- Markdown summaries of the insights
+
 ## Next steps
 
 - Average delay by zone and by hour
